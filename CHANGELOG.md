@@ -4,6 +4,11 @@ All notable changes to AgenTeX are documented here.
 
 ## [Unreleased]
 ### Added
+- **Mobile Define Flow** ? `/mobile-define-flow` defines or clarifies native Android/iOS
+  specs interactively on one BrowserStack App Automate real device, using a restricted
+  gateway with protected secret entry and session cleanup. Uses a standalone consumer
+  configuration and consumer-installed WebdriverIO; existing mobile execution is unchanged.
+  Android/iOS runtime coverage uses mocked devices; real-device iOS behavior is unverified.
 - **`endpoint-testing` skill** — standalone API test run over cataloged endpoints ("api-tests"),
   independent of any browser test spec (the "Standalone API tests" row flips from planned to
   available). New `integration/api_test_suites/**/*_suite.json` case files reference a sibling

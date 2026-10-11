@@ -9,6 +9,7 @@ quick tour.
 | [Getting Started](./getting-started.md) | Install → browser driver → `/init-test` → permissions → first run. |
 | [Test Execution](./test-execution.md) | The core flow — sequential vs. parallel modes, writing specs (browser, API, DB steps), output layout. |
 | [Define Flow](./define-flow.md) | `/define-flow` — build a spec by doing it: each step executed live and asserted before the next is defined; also walks existing specs to clarify them. |
+| [Mobile Define Flow](./mobile-define-flow.md) | `/mobile-define-flow` ? define or clarify a spec interactively on a BrowserStack Android/iOS real device. |
 | [Mobile Testing](./mobile-testing.md) | Native Android/iOS app testing via Appium — sequential vs. parallel modes, capabilities, writing specs. |
 | [API & DB Steps](./api-db-steps.md) | Catalog-only `api:` / `db:` steps inside test scenarios. |
 | [Ask the Knowledge Base](./ask-kb.md) | `kb:` steps and the `/ask-kb` command (advisory only). |
